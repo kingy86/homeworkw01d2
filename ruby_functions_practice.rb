@@ -52,3 +52,16 @@ def number_to_short_month_name(short_month)
     return "Oct"
   end
 end
+
+def length_cube(side)
+  return side**3
+end
+
+def radius(sphere)
+  total = (4 / 3) * (Math::PI) * (sphere**3)
+   return total.to_i
+end
+
+def fah(cel)
+  return (32 - 32) * 5/9
+end
